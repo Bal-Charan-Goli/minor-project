@@ -6,9 +6,9 @@ pipeline{
 // if you want to push a new version of your app, just make changes in html, upgrade the tag.
 environment {
     TAG = '1.0.3' // tag for your image
-    SERVER_IP = "64.227.108.131"  // ip of your remote server
+    SERVER_IP = 54.173.215.57""  // ip of your remote server
     SERVER_USER = "root"  // username of your remote server
-    REPO_NAME = "ankitraz/mywebsite"  // your dockerhub repo name
+    REPO_NAME = "cherry/mywebsite"  // your dockerhub repo name
     APP_NAME = "mywebsite" // name of your app
 }
 
